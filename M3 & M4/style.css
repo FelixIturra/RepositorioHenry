@@ -61,6 +61,16 @@ svg {
   width: 70vh;
   margin: auto;
   display: flex;
+  background-size: cover;
+  flex-basis: 300px;
+  position: sticky;
+  transition: 400ms all ease;
+  filter: grayscale(100%) opacity(35%);
+}
+
+.contain-eti svg:hover {
+  flex-basis: 400px;
+  filter: grayscale(0%) opacity(100%);
 }
 
 li {
