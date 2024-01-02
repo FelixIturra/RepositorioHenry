@@ -45,7 +45,7 @@ h3 {
   box-shadow: 1rem 1rem 2rem 0.5rem #0007;
 }
 svg {
-  width: 100%;
+  width: 30%;
   height: auto;
   flex-basis: 20%;
 }
@@ -56,23 +56,20 @@ svg {
   flex-flow: row nowrap;
 }
 
-.contain-eti svg {
-  height: 30vh;
-  width: 70vh;
-  margin: auto;
-  display: flex;
-  background-size: cover;
-  flex-basis: 300px;
-  position: sticky;
-  transition: 400ms all ease;
-  filter: grayscale(100%) opacity(35%);
+.contain-eti {
+  
+ display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: row nowrap;
+ 
+}
+.contain-eti a svg{
+  width: fit-content;
 }
 
-.contain-eti svg:hover {
-  flex-basis: 400px;
-  filter: grayscale(0%) opacity(100%);
-}
 
 li {
   list-style-type: lower-roman;
 }
+
